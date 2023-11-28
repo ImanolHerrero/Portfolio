@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button"
-import { Send, Github, Linkedin, MoveDown } from "lucide-react"
+import { Send, Github, Linkedin } from "lucide-react"
 import Link from "next/link"
 import Navbar from "./components/navbar"
 import About from "./components/about"
@@ -10,11 +10,11 @@ export default function Home() {
   return (
     <main className="bg-[url('/pattern.svg')] bg-repeat bg-cover">
       <Navbar />
-      <div className="flex flex-col min-h-screen items-center justify-center mx-60">
+      <div className="flex flex-col  items-center justify-center mx-[15%]">
 
         <div className="h-screen flex items-center justify-center">
 
-          <div className="text-center bg-gray-300 rounded-xl bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 p-16 shadow-lg mb-32 min-w-full">
+          <div className="text-center bg-gray-300 rounded-xl bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 p-16 mb-20 shadow-lg min-w-full">
 
             <h1 className="text-6xl font-bold text-gray-800">
               FULLSTACK WEB DEVELOPER
@@ -42,14 +42,10 @@ export default function Home() {
                 </Button>
               </Link>
             </div>
-
           </div>
-
         </div>
         <About />
         <Projects />
-        <div className="mt-40">
-        </div>
       </div>
     </main>
   )
