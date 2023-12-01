@@ -27,7 +27,7 @@ function Projects() {
                                 >
 
                                     <Image
-                                        src={'/EventoX.png'}
+                                        src={'/EventoX.webp'}
                                         layout="fill"
                                         objectFit="cover"
                                         alt='EventoX preview'
@@ -77,7 +77,7 @@ function Projects() {
                             <div className='relative w-full h-48 md:h-56 lg:h-64 mb-4'>
                                 <Link href={"https://shortlyapi.netlify.app/"}>
                                     <Image
-                                        src={'/Shortly.png'}
+                                        src={'/Shortly.webp'}
                                         layout="fill"
                                         objectFit="cover"
                                         alt='Shortly preview'
