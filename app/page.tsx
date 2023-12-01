@@ -12,7 +12,7 @@ export default function Home() {
       <div className="flex flex-col items-center justify-center mx-[5%] md:mx-[15%]">
         <div className="h-screen w-full">
 
-          <div className="text-center bg-gray-300 rounded-xl bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 p-8 shadow-2xl md:p-16 lg:p-20 xl:p-16 border border-gray-300 min-w-full">
+          <div className="text-center bg-gray-300 rounded-xl bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 p-8 shadow-2xl md:p-16 lg:p-20 xl:p-16 border border-gray-300 min-w-full xl:mt-20 lg:mt-20">
 
             <h1 className="text-4xl md:text-6xl font-bold text-gray-800">
               FULLSTACK WEB DEVELOPER

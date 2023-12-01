@@ -6,7 +6,7 @@ function Navbar() {
     return (
         <div className="flex flex-row p-5 text-gray-800 sticky top-0 z-10 bg-white w-full h-20 mb-20">
             <div className="flex-1 text-3xl font-bold flex items-center">
-                <h1 className='font-bold ml-[20%] text-2xl'>Imanol Herrero</h1>
+                <h1 className='font-bold ml-[20%] text-2xl'>Imanol <span className='hidden lg:inline-block xl:inline-block md:inline-block'>Herrero</span></h1>
             </div>
             <div className="flex-1 justify-end flex items-center">
                 <div className='hidden lg:flex'>

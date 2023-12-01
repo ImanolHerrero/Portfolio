@@ -6,10 +6,8 @@ function About() {
 
     return (
         <div id='about'>
-            <div className='text-gray-900 h-screen mt-40 mb-32'>
+            <div className='text-gray-900 h-screen mt-40 mb-20'>
                 <div className='bg-gray-300 rounded-xl bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 p-8 shadow-2xl border boder-gray-300 md:p-16 lg:p-20 xl:p-16 '>
-
-
                     <div className='flex flex-row items-center mb-16'>
                         <User2 className='w-8 h-8' />
                         <h1 className='mx-4 text-4xl font-bold '>About me</h1>
