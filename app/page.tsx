@@ -5,7 +5,10 @@ import Navbar from "./components/navbar";
 import About from "./components/about";
 import Projects from "./components/projects";
 
+
+
 export default function Home() {
+
   return (
     <main className="bg-[url('/pattern.svg')] bg-repeat bg-cover min-h-screen">
       <Navbar />
@@ -24,7 +27,7 @@ export default function Home() {
               I want to deliver unique experiences for you
             </h1>
             <div className="mt-8 md:mt-16 flex flex-col md:flex-row justify-center items-center">
-              <Link href="https://www.linkedin.com/in/imanol-herrero-arias-932956247/">
+              <Link href="https://www.linkedin.com/in/imanol-herrero-932956247/">
                 <Button className="mx-2 my-2 md:my-0 text-md md:text-lg" variant="link">
                   <Linkedin className="mr-2 h-4 md:h-5 w-4 md:w-5" />Linkedin
                 </Button>
