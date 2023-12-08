@@ -12,5 +12,6 @@ Here is where I will be showcasing my actual and future projects. I will be focu
  
  # 👀 How to reach me
  
-  ► [**Linkedin**](https://www.linkedin.com/in/imanol-herrero-932956247/)
+► [**Linkedin**](https://www.linkedin.com/in/imanol-herrero-932956247/)
+
 ► [**Email**](imano.arias@gmail.com)
